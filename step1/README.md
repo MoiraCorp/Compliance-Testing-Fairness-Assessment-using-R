@@ -3,7 +3,7 @@
 ## Loading data
 
 ##### Load the data table from the local Windows directory C:\Projets_En_Cours\AI_MTPL\__BasingHall\25-May-2021\Results
-BH_OCC_wStatus <- read.table("C:/Projets_En_Cours/AI_MTPL/__BasingHall/25-May-2021/Results/BH_OCC_wStatus-IDSorted_25-May-2021.csv", header=TRUE, sep=",")
+<font color="blue">BH_OCC_wStatus <- read.table("C:/Projets_En_Cours/AI_MTPL/__BasingHall/25-May-2021/Results/BH_OCC_wStatus-IDSorted_25-May-2021.csv", header=TRUE, sep=",")</font>
 
 ## Loading the necessary libraries
 
