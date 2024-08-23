@@ -8,7 +8,10 @@
   <li>2.2 Value Proposition</li>
   <li>2.3 Customer's pain points</li>
   <li>2.4 TOP benefits for customer</li>
-</ul>
+</ul><br>
+
+For preprocessing details see: (https://github.com/MoiraCorp/Innovkg-exercise-km/tree/main/step1/preprocess)
+
 <em><strong>IMPORTANT NOTE:</strong></em> This exercise is using the BH Register of Interest database from <em><strong>25 May 2021</strong></em>
 </p>
 
