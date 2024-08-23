@@ -5,9 +5,9 @@
 ## Method
  This exercise will follow the content of the dev-journal file: R_Procedures_Fairness analysis_25-May-2021.txt
 
- > <p>Step1 - Load data and libraries [Open step 1 folder](https://github.com/MoiraCorp/Innovkg-exercise-km/tree/main/step1)</p>
- > <p>Step2 - Perform Principal Component Analysis (PCA) and evaluate clustering potential in various factor scores subspaces</p>
- > <p>Step3 - Perform K-means on a factor scores sub-space at evaluate performance with a minimum number of clusters</p>
- > <p>Step4 - Display retained clusters statistics</p>
- > <p>Step5 - Evaluate fairness of Basing Hall-BIC selection process</p>
+ > <p><strong>Step1</strong> - Load data and libraries -> (https://github.com/MoiraCorp/Innovkg-exercise-km/tree/main/step1)</p>
+ > <p><strong>Step2</strong> - Perform Principal Component Analysis (PCA) and evaluate clustering potential in various factor scores subspaces -> (https://github.com/MoiraCorp/Innovkg-exercise-km/tree/main/step2)</p>
+ > <p><strong>Step3</strong> - Perform K-means on a factor scores sub-space at evaluate performance with a minimum number of clusters -> (https://github.com/MoiraCorp/Innovkg-exercise-km/tree/main/step3)</p>
+ > <p><strong>Step4</strong> - Display retained clusters statistics -> (https://github.com/MoiraCorp/Innovkg-exercise-km/tree/main/step4)</p>
+ > <p><strong>Step5</strong> - Evaluate fairness of Basing Hall-BIC selection process -> (https://github.com/MoiraCorp/Innovkg-exercise-km/tree/main/step5)</p>
 
