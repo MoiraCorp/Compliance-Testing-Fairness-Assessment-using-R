@@ -28,6 +28,8 @@ on CRAN: FactoMineR: Multivariate Exploratory Data Analysis and Data Mining (htt
 on CRAN: factoextra: Extract and Visualize the Results of Multivariate Data Analyses (https://cran.r-project.org/web/packages/factoextra/index.html)<br>
 </li>
 </ul>
+<strong>IMPORTANT Note:</strong> Before using the "library" function in R, one needs to check that the correponding packages have been loaded from CRAN<br>
+<em>Check R or RStudio documentation on how to install CRAN packages</em> 
 
 ##### Load theggplot2 graphics library
 > <em>library (ggplot2)</em>
