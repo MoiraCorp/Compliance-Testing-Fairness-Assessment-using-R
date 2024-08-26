@@ -33,22 +33,26 @@ However, their coordinates have been modified. We need to place each of these la
 <strong>Here, we seek th place the points back into the original 2-3 PCA factor space.</strong>
 Here we follow the R practice of Alboukadel Kassambara who is one of the main contributors to the factoextra R package (http://www.alboukadel.com/)	
 
-### Extracting the class vector for labelling
-> <em>km.res$cluster</em>
-> <em>grp <- as.factor(km.res$cluster)</em>
+### Extracting the group (class) vector table for labelling of display
+> <em>grp <- as.factor(km.res$cluster)</em><br>
+
+### Displaying groups in 2-3 PCA factor space with scatter ellipses
 > <em>fviz_pca_biplot(bh_occ.pca, axes = c(2, 3), repel = TRUE,<br>
 		habillage = grp,<br>
              	addEllipses = TRUE)<br>  
 </em>
-         
-### Saving the group vectors table
+
+<img src="BHP-25-May-2021_PCA-Biplot_2-3_5GR_Ellipses.png" alt="drawing" width="70%"/>
+<strong>INTERPRETATION -> The separability of the 5 determined groups is agian well characterized</strong>
+     
+### Saving the group (class) vector table for future use
 In the present example, the data tables is located in directory: C:\Projets_En_Cours\AI_MTPL__BasingHall\25-May-2021\Results
 
 > <em>write.csv(grp,"C:/Projets_En_Cours/AI_MTPL/__BasingHall/25-May-2021/Results/grp.csv", sep=",")</em><br>
 
 NOTE -> The group vector grp is exported and then modified for transfer of a few odd companies into of a group 6 for outliers
 
-### Biplot rows and columns 2-3 components
+### Biplot rows and columns 2-3 components in html format
 > <em>pca_biplot_23 <- fviz_pca_biplot(bh_occ.pca, axes = c(2,3), repel = TRUE)<br>
 > <em>ggly <- ggplotly(pca_biplot_23)<br>
 > <em>bggly <- plotly_build(ggly)<br>
