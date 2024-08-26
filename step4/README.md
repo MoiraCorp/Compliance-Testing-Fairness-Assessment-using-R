@@ -42,5 +42,6 @@ Here we follow the R practice of Alboukadel Kassambara who is one of the main co
              	addEllipses = TRUE)<br>  
 </em>
 
-<strong>INTERPRETATION -> The separability of the 5 determined groups is again well characterized</strong><br>
 <img src="BHP-25-May-2021_PCA-Biplot_2-3_5GR_Ellipses.png" alt="drawing" width="70%"/>
+
+<strong>INTERPRETATION -> The separability of the 5 determined groups is again well characterized</strong><br>
