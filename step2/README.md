@@ -20,20 +20,22 @@ PCA prcomp() function parameters:
 ## Displaying the bulk PCA results with contributions
 
 ### BiPlot companies-variables 1-2 components
-> <em>fviz_pca_biplot(bh_occ.pca, axes = c(1, 2), repel = TRUE,
-             col.ind = "cos2", # Color by the quality of representation
-            col.var = "contrib", # Color by contributions to the PC
-             gradient.cols = c("#00AFBB", "#E7B800", "#FC4E07"),
-                )</em>
+> <em>fviz_pca_biplot(bh_occ.pca, axes = c(1, 2), repel = TRUE,<br>
+             col.ind = "cos2", # Color by the quality of representation<br>
+            col.var = "contrib", # Color by contributions to the PC<br>
+             gradient.cols = c("#00AFBB", "#E7B800", "#FC4E07"),<br>
+                )<br>
+</em>
                 
 <img src="BHP-25-May-2021_PCA-Biplot_1-2.png" alt="drawing" width="70%"/>
 
 ### BiPlot companies-variables 2-3 components
-> <em>fviz_pca_biplot(bh_occ.pca, axes = c(2, 3), repel = TRUE,
-             col.ind = "cos2", # Color by the quality of representation
-            col.var = "contrib", # Color by contributions to the PC
-             gradient.cols = c("#00AFBB", "#E7B800", "#FC4E07"),
-                )</em>
+> <em>fviz_pca_biplot(bh_occ.pca, axes = c(2, 3), repel = TRUE,<br>
+             col.ind = "cos2", # Color by the quality of representation<br>
+            col.var = "contrib", # Color by contributions to the PC<br>
+             gradient.cols = c("#00AFBB", "#E7B800", "#FC4E07"),<br>
+                )<br>
+ </em>
                 
 <img src="BHP-25-May-2021_PCA-Biplot_2-3.png" alt="drawing" width="70%"/>
 
@@ -44,33 +46,26 @@ in: ggplot2 - Essentials (http://www.sthda.com/english/wiki/ggplot2-essentials)
 
 ### BiPlot companies-variables 2-3 components with DisvAccept groups (D = Dismissed, R = Retained)
 > <em>fviz_pca_ind(bh_occ.pca,
-             label = "none", # hide individual labels
- 	     axes = c(1,2),
-             habillage = BH_OCC_wStatus$RetDis, # color by groups
-             palette = c("#FF99FF", "#003366")
+             label = "none", # hide individual labels<br>
+ 	     axes = c(2,3),<br>
+             habillage = BH_OCC_wStatus$RetDis, # color by groups<br>
+             palette = c("#FF99FF", "#003366")<br>
 )</em>
 
 <img src="BHP-25-May-2021_PCA-Biplot_2-3_R-D.png" alt="drawing" width="70%"/>
 
 ## Displaying PCA results with contributions for Old_New classes
 
-### BiPlot companies-variables 2-3 components with OldNew groups (O = Old (24-Mar-2021), N = New (25-May-2021) )
-> <em>fviz_pca_ind(bh_occ.pca,
-             label = "none", # hide individual labels
- 	     axes = c(2,3),
-             habillage = BH_OCC_wStatus$OldNew, # color by groups
-             palette = c("#FF99FF", "#003366")
-)</em>
-
 <strong>Modify point shapes with ggplot2</strong> using the "scale_shape_manual" parameter <br>	
 in: ggplot2 point shapes (http://www.sthda.com/english/wiki/ggplot2-point-shapes)
 
 ### BiPlot companies-variables 2-3 components with OldNew groups (O = Old (24-Mar-2021), N = New (25-May-2021) )
 > <em>fviz_pca_ind(bh_occ.pca,
-             label = "none", # hide individual labels
- 	     axes = c(2,3),
-             habillage = BH_OCC_wStatus$OldNew, # color by groups
-             palette = c("#FF3366", "#003366")
-) + scale_shape_manual(values=c(19,20))</em>
+             label = "none", # hide individual labels<br>
+ 	     axes = c(2,3),<br>
+             habillage = BH_OCC_wStatus$OldNew, # color by groups<br>
+             palette = c("#FF3366", "#003366")<br>
+) + scale_shape_manual(values=c(19,20))<br>
+</em>
 
 <img src="BHP-25-May-2021_PCA-Biplot_2-3_O-N.png" alt="drawing" width="70%"/>
