@@ -25,9 +25,9 @@ PCA prcomp() function parameters:
             col.var = "contrib", # Color by contributions to the PC
              gradient.cols = c("#00AFBB", "#E7B800", "#FC4E07"),
                 )</em>
- <div style="width:20%; margin: auto;"> 
- ![PCA 1-2 plane](BHP-25-May-2021_PCA-Biplot_1-2.png)
- </div>
+<div align='center'>                
+<img src="BHP-25-May-2021_PCA-Biplot_1-2.png" alt="drawing" width="70%"/>
+</div
 ### BiPlot companies-variables 2-3 components
 > <em>fviz_pca_biplot(bh_occ.pca, axes = c(2, 3), repel = TRUE,
              col.ind = "cos2", # Color by the quality of representation
