@@ -23,6 +23,7 @@ NOTE:
              )   + scale_x_reverse()<br>
 </em>
 
-<stong></stong>-> INTERPRETATION - The separability of the 5 determined groups is rather good</strong>
+<img src="BHP-25-May-2021_PCA-Biplot_2-3_Kmeans.png" alt="drawing" width="70%"/>
+<stong>-> INTERPRETATION - The separability of the 5 determined groups is rather good</strong>
 
 ## Display cluster results in the original original factor space 2-3 biplot
