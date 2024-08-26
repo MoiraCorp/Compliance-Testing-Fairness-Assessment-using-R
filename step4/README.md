@@ -52,15 +52,3 @@ In the present example, the data tables is located in directory: C:\Projets_En_C
 
 NOTE -> The group vector grp is exported and then modified for transfer of a few odd companies into of a group 6 for outliers
 
-### Biplot rows and columns 2-3 components in html format
-> <em>pca_biplot_23 <- fviz_pca_biplot(bh_occ.pca, axes = c(2,3), repel = TRUE)<br>
-> <em>ggly <- ggplotly(pca_biplot_23)<br>
-> <em>bggly <- plotly_build(ggly)<br>
-> <em>bggly$x$data[[1]]$text <-<br>
- 		 with(pca_biplot_23$data, paste0("name: ", name,<br>
-                        "<\/br><\/br>contrib: ", contrib))<br>
-</em>
-
-NOTE -> Ounce the .js encoded module has been modified, it needs to be executed separately
-
-> <em>bggly</em>	
