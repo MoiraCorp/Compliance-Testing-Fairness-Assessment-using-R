@@ -42,13 +42,5 @@ Here we follow the R practice of Alboukadel Kassambara who is one of the main co
              	addEllipses = TRUE)<br>  
 </em>
 
+<strong>INTERPRETATION -> The separability of the 5 determined groups is again well characterized</strong><br>
 <img src="BHP-25-May-2021_PCA-Biplot_2-3_5GR_Ellipses.png" alt="drawing" width="70%"/>
-<strong>INTERPRETATION -> The separability of the 5 determined groups is agian well characterized</strong>
-     
-### Saving the group (class) vector table for future use
-In the present example, the data tables is located in directory: C:\Projets_En_Cours\AI_MTPL__BasingHall\25-May-2021\Results
-
-> <em>write.csv(grp,"C:/Projets_En_Cours/AI_MTPL/__BasingHall/25-May-2021/Results/grp.csv", sep=",")</em><br>
-
-NOTE -> The group vector grp is exported and then modified for transfer of a few odd companies into of a group 6 for outliers
-
