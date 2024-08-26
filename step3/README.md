@@ -27,4 +27,6 @@ We follow: fviz_nbclust: Dertermining and Visualizing the Optimal Number of Clus
 geom_vline(xintercept = 3, linetype = 2)<br>
 </em>
 
-<strong>-> INTERPRETATION -</strong> The generated plot shows a significant bend at <strong>4-5 clusters</strong>
+<img src="BHP-25-May-2021_Kmeans_nbrclust.png" alt="drawing" width="70%"/>
+<strong>-> INTERPRETATION -></strong> The generated plot shows a significant bend at <strong>4-5 clusters</strong><br>
+<strong>-> The analysis continues using 5 clusters</strong>
