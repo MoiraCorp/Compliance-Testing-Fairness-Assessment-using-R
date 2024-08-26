@@ -21,6 +21,10 @@ on CRAN: ggplot2: Create Elegant Data Visualisations Using the Grammar of Graphi
 see also: ggplot2 R Documentation (https://www.rdocumentation.org/packages/ggplot2/versions/3.5.0)<br>
 with examples in: Data visualization (https://r4ds.hadley.nz/data-visualize) 
 </li>
+  <li><strong>plotly</strong><br>
+on CRAN: plotly: Create Interactive Web Graphics via 'plotly.js (https://cran.r-project.org/web/packages/plotly/index.html)<br>
+see also: Interactive web-based data visualization with R, plotly, and shiny (https://plotly-r.com/)<br>
+</li>
 <li><strong>FactoMineR</strong><br>
 on CRAN: FactoMineR: Multivariate Exploratory Data Analysis and Data Mining (https://cran.r-project.org/web/packages/FactoMineR/index.html)<br>
 </li>
@@ -33,6 +37,8 @@ on CRAN: factoextra: Extract and Visualize the Results of Multivariate Data Anal
 
 ##### Load theggplot2 graphics library
 > <em>library (ggplot2)</em>
+##### Load plotly graphics library
+> <em>library(plotly)</em>
 ##### Load the FactoMineR library
 > <em>library(FactoMineR)</em>
 ##### Install library factoextra 
