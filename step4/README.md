@@ -24,6 +24,10 @@ NOTE:
 </em>
 
 <img src="BHP-25-May-2021_PCA-Biplot_2-3_Kmeans.png" alt="drawing" width="70%"/>
-<stong>-> INTERPRETATION - The separability of the 5 determined groups is rather good</strong>
+<strong>INTERPRETATION -> The separability of the 5 determined groups is rather good</strong>
 
 ## Display cluster results in the original original factor space 2-3 biplot
+
+<strong>PROBLEM TO BE SOLVED :</strong> The k-means has labeled the members as belonging to one of 5 different groups.
+However, their coordinates have been modified. We need to place each of these labeled members into their original data space<br>
+<strong>Here, we seek th place the points back into the original 2-3 PCA factor space.</strong>
