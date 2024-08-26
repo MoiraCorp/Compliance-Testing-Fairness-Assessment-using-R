@@ -15,55 +15,54 @@ PCA prcomp() function parameters:
 - normalise each column "scale" by dividing by the column variance (Variance in normalized to 1)
 <br>see: Principal Component Analysis in R: prcomp vs princomp (http://www.sthda.com/english/articles/31-principal-component-methods-in-r-practical-guide/118-principal-component-analysis-in-r-prcomp-vs-princomp/)
 
-bh_occ.pca <- prcomp(BH_OCC_wStatus[,c(4:14,15:17)], center = TRUE, scale = TRUE)					
+> <em>bh_occ.pca <- prcomp(BH_OCC_wStatus[,c(4:14,15:17)], center = TRUE, scale = TRUE)</em>				
 
 ## Displaying the bulk PCA results with contributions
 
 ### BiPlot companies-variables 1-2 components
-fviz_pca_biplot(bh_occ.pca, axes = c(1, 2), repel = TRUE,
+> <em>fviz_pca_biplot(bh_occ.pca, axes = c(1, 2), repel = TRUE,
              col.ind = "cos2", # Color by the quality of representation
             col.var = "contrib", # Color by contributions to the PC
              gradient.cols = c("#00AFBB", "#E7B800", "#FC4E07"),
-                )
+                )</em>
 
 # BiPlot companies-variables 2-3 components
-fviz_pca_biplot(bh_occ.pca, axes = c(2, 3), repel = TRUE,
+> <em>fviz_pca_biplot(bh_occ.pca, axes = c(2, 3), repel = TRUE,
              col.ind = "cos2", # Color by the quality of representation
             col.var = "contrib", # Color by contributions to the PC
              gradient.cols = c("#00AFBB", "#E7B800", "#FC4E07"),
-                )
+                )</em>
 
 ## Displaying PCA results with contributions for Dismissed-Retained classes
 
- Modify point colors with ggplot2	
-	In: ggplot2 - Essentials (http://www.sthda.com/english/wiki/ggplot2-essentials)
+<strong>Modify point colors with ggplot2</strong> using the "palette" parameter<br>	
+in: ggplot2 - Essentials (http://www.sthda.com/english/wiki/ggplot2-essentials)
 
 ### BiPlot companies-variables 2-3 components with DisvAccept groups (D = Dismissed, R = Retained)
-fviz_pca_ind(bh_occ.pca,
+> <em>fviz_pca_ind(bh_occ.pca,
              label = "none", # hide individual labels
  	     axes = c(1,2),
              habillage = BH_OCC_wStatus$RetDis, # color by groups
              palette = c("#FF99FF", "#003366")
-)
+)</em>
 
 ## Displaying PCA results with contributions for Old_New classes
 
 ### BiPlot companies-variables 2-3 components with OldNew groups (O = Old (24-Mar-2021), N = New (25-May-2021) )
-fviz_pca_ind(bh_occ.pca,
+> <em>fviz_pca_ind(bh_occ.pca,
              label = "none", # hide individual labels
  	     axes = c(2,3),
              habillage = BH_OCC_wStatus$OldNew, # color by groups
              palette = c("#FF99FF", "#003366")
-)
+)</em>
 
- Modify point shapes and colors with ggplot2	
-	In: ggplot2 point shapes
-		http://www.sthda.com/english/wiki/ggplot2-point-shapes
+<strong>Modify point shapes with ggplot2</strong> using the "scale_shape_manual" parameter <br>	
+in: ggplot2 point shapes (http://www.sthda.com/english/wiki/ggplot2-point-shapes)
 
 ### BiPlot companies-variables 2-3 components with OldNew groups (O = Old (24-Mar-2021), N = New (25-May-2021) )
-fviz_pca_ind(bh_occ.pca,
+> <em>fviz_pca_ind(bh_occ.pca,
              label = "none", # hide individual labels
  	     axes = c(2,3),
              habillage = BH_OCC_wStatus$OldNew, # color by groups
              palette = c("#FF3366", "#003366")
-) + scale_shape_manual(values=c(19,20))
+) + scale_shape_manual(values=c(19,20))</em>
