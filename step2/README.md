@@ -25,15 +25,17 @@ PCA prcomp() function parameters:
             col.var = "contrib", # Color by contributions to the PC
              gradient.cols = c("#00AFBB", "#E7B800", "#FC4E07"),
                 )</em>
-<div align='center'>                
+                
 <img src="BHP-25-May-2021_PCA-Biplot_1-2.png" alt="drawing" width="70%"/>
-</div
+
 ### BiPlot companies-variables 2-3 components
 > <em>fviz_pca_biplot(bh_occ.pca, axes = c(2, 3), repel = TRUE,
              col.ind = "cos2", # Color by the quality of representation
             col.var = "contrib", # Color by contributions to the PC
              gradient.cols = c("#00AFBB", "#E7B800", "#FC4E07"),
                 )</em>
+                
+<img src="BHP-25-May-2021_PCA-Biplot_2-3.png" alt="drawing" width="70%"/>
 
 ## Displaying PCA results with contributions for Dismissed-Retained classes
 
@@ -47,6 +49,8 @@ in: ggplot2 - Essentials (http://www.sthda.com/english/wiki/ggplot2-essentials)
              habillage = BH_OCC_wStatus$RetDis, # color by groups
              palette = c("#FF99FF", "#003366")
 )</em>
+
+<img src="BHP-25-May-2021_PCA-Biplot_2-3_R-D.png" alt="drawing" width="70%"/>
 
 ## Displaying PCA results with contributions for Old_New classes
 
@@ -68,3 +72,5 @@ in: ggplot2 point shapes (http://www.sthda.com/english/wiki/ggplot2-point-shapes
              habillage = BH_OCC_wStatus$OldNew, # color by groups
              palette = c("#FF3366", "#003366")
 ) + scale_shape_manual(values=c(19,20))</em>
+
+<img src="BHP-25-May-2021_PCA-Biplot_2-3_O-N.png" alt="drawing" width="70%"/>
