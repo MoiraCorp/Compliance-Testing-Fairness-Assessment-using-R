@@ -30,7 +30,8 @@ NOTE:
 
 <strong>PROBLEM TO BE SOLVED :</strong> The k-means has labeled the members as belonging to one of 5 different groups (or classes).
 However, their coordinates have been modified. We need to place each of these labeled members into their original data space<br>
-<strong>Here, we seek th place the points back into the original 2-3 PCA factor space.</strong>
+<strong>Here, we seek to place the points back into the original 2-3 PCA factor space.</strong><br>
+This placement will enable to <strong>interpret the relations between each cluster and the "tag" variables</strong> determined by Open Calais<br>
 Here we follow the R practice of Alboukadel Kassambara who is one of the main contributors to the factoextra R package (http://www.alboukadel.com/)	
 
 ### Extracting the group (class) vector table for labelling of display
