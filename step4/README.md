@@ -45,3 +45,4 @@ Here we follow the R practice of Alboukadel Kassambara who is one of the main co
 <img src="BHP-25-May-2021_PCA-Biplot_2-3_5GR_Ellipses.png" alt="drawing" width="70%"/>
 
 <strong>INTERPRETATION -> The separability of the 5 determined groups is again well characterized</strong><br>
+<strong>NOTE : </strong>for the interpretation of each "tag" variable (A1 to A16), see : (https://github.com/MoiraCorp/Innovkg-exercise-km/blob/main/step1/preprocess/README.md)
