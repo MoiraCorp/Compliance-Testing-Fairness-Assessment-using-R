@@ -21,7 +21,11 @@ following:  get_pca: Extract the results for individuals/variables in Principal 
 > <em>df <- scale(bh_occ.pca.23)</em>
 
 ### Evaluating the "clustering" capacity of k-means
-We follow: fviz_nbclust: Dertermining and Visualizing the Optimal Number of Clusters (https://www.rdocumentation.org/packages/factoextra/versions/1.0.7/topics/fviz_nbclust)
+We follow: fviz_nbclust: Dertermining and Visualizing the Optimal Number of Clusters (https://www.rdocumentation.org/packages/factoextra/versions/1.0.7/topics/fviz_nbclust)<br>
+The best pratice is to <strong>compute a "clustering quality index"</strong> which is the sum of the inertia of clusters as a function of the number of clusters<br>
+A cluster "inertia" is its variance around its center (i.d., average cluster vector).<br>
+Starting from the variance of the whole cloud (one cluster), the sum of the inertia of clusters tends to decrease and stabilize as the number of clusters increases.
+The <strong>"elbow rule"</strong> advises to retain the number of clusters where the curve has reached its stable level.
 
 > <em>fviz_nbclust(df, kmeans, method = "wss") +<br>
 geom_vline(xintercept = 3, linetype = 2)<br>
