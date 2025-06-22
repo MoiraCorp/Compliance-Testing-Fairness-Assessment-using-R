@@ -1,5 +1,5 @@
  ![MoiraCorp logo](/assets/images/MoiraCorp_Capture.jpg)
-# A case of Compliance Testing - Using R for Fairness Assessment
+# A case of Compliance Testing - Fairness Assessment using R
  K-means training exercise in R based on Basing Hall-BIC table from 25-May-2021
 
 ## Purpose
