@@ -1,5 +1,5 @@
  ![MoiraCorp logo](/assets/images/MoiraCorp_Capture.jpg)
-# Innovkg-exercise-km
+# A case of Compliance Testing - Using R for Fairness Assessment
  K-means training exercise in R based on Basing Hall-BIC table from 25-May-2021
 
 ## Purpose
