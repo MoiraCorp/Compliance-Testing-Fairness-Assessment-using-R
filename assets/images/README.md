@@ -1,1 +1,1 @@
-Repository for images
+© MoiraCorp company logos
