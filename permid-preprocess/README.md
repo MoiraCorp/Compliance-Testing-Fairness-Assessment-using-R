@@ -1,4 +1,10 @@
-# Preprocessing: Extracting activity tags using LSEG Intelligent Tagging (Open Calais)
+# Preprocessing: Extracting activity semantic tags using LSEG PermID Intelligent Tagging (Open Calais)
+
+## What is the PermID semantic tagging service
+
+<p> LSEG is providing several services aiming at providing Permanent Identifiers (PermIDs) for tagging financial related information related to any product or company. These services are regrouped under the PermID "banner" ( https://permid.org/ ). These services are delivered in "Open" mode. They are intended to facilitate and standardize the information exchanged between the various stakeholders of the economics sector. This service inherits from an older product named "Open Calais" which was acquired from Reuters about 10 years ago ( https://en.wikipedia.org/wiki/Calais_(Reuters_product) )</p> 
+
+<p>This technology was originally developed by a US-Israel company named ClearForest which was later acquired by Reuters. The provided on-line service and its dictionary and data structures are built around a concept known as the "Semantic Web" ( https://en.wikipedia.org/wiki/Semantic_Web ). This technology and its standards were introduced in 2001 by Berners-Lee and his colleagues as a way of describing on the Web the relations between the "meaning" of published data or information.</p>
 
 <p> The preprocessing phase uses the Register of Interest database<br>
 For each company in the database, semantic tags identified using the LSEG Intelligent Tagging (Open Calais) service from the juxtaposition of 3 descriptive fields present in the database.<br> These fields are respectively:<br> 
