@@ -12,7 +12,7 @@
 
 ## Using PermID "Intelligent Tagging" on the VC "Statement of Interest" Questionnaire
 
-<p> The preprocessing phase uses the Register of Interest database generated from the on-line questionnaire submitted to each startup<br>
+<p>The preprocessing phase uses the Register of Interest database generated from the on-line questionnaire submitted to each startup<br>
 For each company in the database, semantic tags identified using the LSEG-PermID Intelligent Tagging (Open Calais) service from the juxtaposition of 3 descriptive fields present in the database.<br> These fields are respectively:<br> 
 <ul>
   <li>2.2 Value Proposition</li>
@@ -39,3 +39,7 @@ The activity "tags" determined by PermID from the concatenation of these 3 quest
 <li>A15 - Sports</li>
 <li>A16 - Law_Crime</li>
 </ul>
+
+## The final PermID encoded Questionnaire
+
+<p>For the 529 startup companies registered in the questionnaire, the final PermID encoded questionnaire is presented in table: BH_OCC_wStatus-IDSorted_24-Mar-2021.csv ( https://github.com/MoiraCorp/Compliance-Testing-Fairness-Assessment-using-R/blob/main/permid-preprocess/BH_OCC_wStatus-IDSorted_24-Mar-2021.csv )</p>
