@@ -1,4 +1,4 @@
-# Step5 - Evaluate fairness of Basing Hall-BIC selection process
+# Step5 - Evaluate fairness of the selection process of the startup dossiers
 
 ### Saving the group (class) vector table for future use
 In the present example, the data tables is located in directory: C:\Projets_En_Cours\AI_MTPL__BasingHall\25-May-2021\Results
