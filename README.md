@@ -8,7 +8,7 @@ The problem is here to test if in a VC firm, the data-driven process of startup 
 
 <p>We propose here to replace the traditional cumbersome manual process of startup sourcing and screening by the use of a Machine Learning (ML) process based on a three steps process:<br>
 <ul>
- <li> activity characterisation using a Natural Language Process (NLP) tagging system</li>
+ <li> activity characterisation using a Natural Language Process (NLP) semantic tagging system</li>
  <li> followed by a K-means clustering algorithm capable of classifying the startups by their activity</li>
  <li> and test if the selection/dismissal of their dossier is a "fair" process</li>
 </ul><br>
