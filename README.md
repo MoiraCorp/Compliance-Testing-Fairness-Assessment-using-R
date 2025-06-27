@@ -20,7 +20,7 @@ For preprocessing details see: (https://github.com/MoiraCorp/Innovkg-exercise-km
 
 ## Method
 
- > <p><strong>Step1</strong> - Semantic tagging using the LSEG-PermID (Open Calais) service -> (https://github.com/MoiraCorp/Innovkg-exercise-km/tree/main/step1)</p>
+ > <p><strong>Preprocessing</strong> - Semantic tagging using the LSEG-PermID (Open Calais) service -> (https://github.com/MoiraCorp/Innovkg-exercise-km/tree/main/permid-preprocess)</p>
  > <p><strong>Step1</strong> - Load data and libraries in R -> (https://github.com/MoiraCorp/Innovkg-exercise-km/tree/main/step1)</p>
  > <p><strong>Step2</strong> - Perform Principal Component Analysis (PCA) and evaluate clustering potential in various factor scores subspaces -> (https://github.com/MoiraCorp/Innovkg-exercise-km/tree/main/step2)</p>
  > <p><strong>Step3</strong> - Perform K-means on a factor scores sub-space at evaluate performance with a minimum number of clusters -> (https://github.com/MoiraCorp/Innovkg-exercise-km/tree/main/step3)</p>
