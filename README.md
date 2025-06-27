@@ -6,7 +6,7 @@
 The problem is here to test if in a VC firm, the data-driven process of startup dossier discovery and selection is unbiased and compliant with a declared principle of "fairness". Apart from usual financial assessment, the data-driven selection is based on provided descriptions such as: value proposition, customer's pain points and a list of top benefits for customers.
 </p>
 
-<p>We propose here to replace the traditional cumbersome manual process of startup sourcing and screening by the use of a Machine Learning (ML) algorithm based on a three steps process:<br>
+<p>We propose here to replace the traditional cumbersome manual process of startup sourcing and screening by the use of a Machine Learning (ML) process based on a three steps process:<br>
 <ul>
  <li> activity characterisation using a Natural Language Process (NLP) tagging system</li>
  <li> followed by a K-means clustering algorithm capable of classifying the startups by their activity</li>
