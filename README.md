@@ -12,10 +12,6 @@ The problem is here to test if in a VC firm, the data-driven process of startup 
  <li> followed by a K-means clustering algorithm capable of classifying the startups by their activity</li>
  <li> and test if the selection/dismissal of their dossier is a "fair" process</li>
 </ul><br>
-
-For preprocessing details see: (https://github.com/MoiraCorp/Innovkg-exercise-km/tree/main/step1/preprocess)
-
-<em><strong>IMPORTANT NOTE:</strong></em> This exercise is using the BH Register of Interest database from <em><strong>25 May 2021</strong></em>
 </p>
 
 ## Method
