@@ -1,13 +1,16 @@
  ![MoiraCorp logo](/assets/images/MoiraCorp_Capture.jpg)
 # Compliance Testing - Fairness Assessment using R
- K-means training exercise in R based on Basing Hall-BIC table from 25-May-2021
 
 ## Purpose
-<p>In this exercise you will learn how to determine clusters of similar companies from the Basing Hall-BIC Register of Interest database on the basis of the semantic tags identified by the LSEG Intelligent Tagging (Open Calais) service from the juxtaposition of 3 descriptive fields present in the database.<br> These fields are respectively:<br> 
+<p>
+The problem is here to test if in a VC firm, the data-driven process of startup dossier discovery and selection is unbiased and compliant with a declared principle of "fairness". Apart from usual financial assessment, the data-driven selection is based on provided descriptions such as: value proposition, customer's pain points and a list of top benefits for customers.
+</p>
+
+<p>We propose here to replace the traditional cumbersome manual process of startup sourcing and screening by the use of a Machine Learning (ML) algorithm based on a three steps process:<br>
 <ul>
-  <li>2.2 Value Proposition</li>
-  <li>2.3 Customer's pain points</li>
-  <li>2.4 TOP benefits for customer</li>
+ <li> activity characterisation using a Natural Language Process (NLP) tagging system</li>
+ <li> followed by a K-means clustering algorithm capable of classifying the startups by their activity</li>
+ <li> and test if the selection/dismissal of their dossier is a "fair" process</li>
 </ul><br>
 
 For preprocessing details see: (https://github.com/MoiraCorp/Innovkg-exercise-km/tree/main/step1/preprocess)
