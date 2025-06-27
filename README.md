@@ -21,5 +21,5 @@ The problem is here to test if in a VC firm, the data-driven process of startup 
  > <p><strong>Step2</strong> - Perform Principal Component Analysis (PCA) and evaluate clustering potential in various factor scores subspaces -> (https://github.com/MoiraCorp/Innovkg-exercise-km/tree/main/step2)</p>
  > <p><strong>Step3</strong> - Perform K-means on a factor scores sub-space at evaluate performance with a minimum number of clusters -> (https://github.com/MoiraCorp/Innovkg-exercise-km/tree/main/step3)</p>
  > <p><strong>Step4</strong> - Display retained clusters statistics -> (https://github.com/MoiraCorp/Innovkg-exercise-km/tree/main/step4)</p>
- > <p><strong>Step5</strong> - Evaluate fairness of Basing Hall-BIC selection process -> (https://github.com/MoiraCorp/Innovkg-exercise-km/tree/main/step5)</p>
+ > <p><strong>Step5</strong> - Evaluate fairness of the startup dossier selection process -> (https://github.com/MoiraCorp/Innovkg-exercise-km/tree/main/step5)</p>
 
