@@ -43,3 +43,25 @@ The activity "tags" determined by PermID from the concatenation of these 3 quest
 ## The final PermID encoded Questionnaire
 
 <p>For the 529 startup companies registered in the questionnaire, the final PermID encoded questionnaire is presented in table: BH_OCC_wStatus-IDSorted_24-Mar-2021.csv ( https://github.com/MoiraCorp/Compliance-Testing-Fairness-Assessment-using-R/blob/main/permid-preprocess/BH_OCC_wStatus-IDSorted_24-Mar-2021.csv )</p>
+
+Regarding this datatable it is important to note:
+> Each of the semantic tags A1 to A16 is represented by a probability of being associated with the descriptive text submitted by each startup<br>
+> The "Status" column provides a list of actions taken by the VC firm staff regarding a particular startup submission dossier<br>
+
+The possible "Status" codes are:
+<ul>
+<li>1. Form Submitted</li>
+<li>2. Initial Contact Phase</li>
+<li>3. First interview</li>
+<li>4. Deal call candidate</li>
+<li>5. Deal Call Pre-selection</li>
+<li>6. Q&A</li>
+<li>7. Deal call TOP 10</li>
+<li>8. Deal call TOP 5</li>
+<li>9. BAQ</li>
+<li>16. Closed</li>
+<li>19. BAQ not returned</li>
+<li>20. Further to follow</li>
+<li>21. Discontinued</li>
+<li>22. Dismissed</li>
+</ul>
