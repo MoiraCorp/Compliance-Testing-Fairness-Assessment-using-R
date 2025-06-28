@@ -10,7 +10,7 @@ The data table BH_OCC_wStatus-IDSorted_25-May-2021.csv should be downloaded into
 
 ##### Load the data table from your local Windows directory into R
 In the present example, the data table is located in the project directory: C:\Projets_En_Cours\AI_MTPL\__BasingHall\25-May-2021\Results
-> <em>BH_OCC_wStatus <- read.table("C:/Projets_En_Cours/AI_MTPL/__BasingHall/25-May-2021/Results/BH_OCC_wStatus-IDSorted_25-May-2021.csv", header=TRUE, sep=",")</em><br>
+> <em>BH_OCC_wStatus <- read.table("C:/Projets_En_Cours/AI_MTPL/__BasingHall/25-May-2021/Results/OCC_wStatus-IDSorted.csv", header=TRUE, sep=",")</em><br>
 
 <strong>IMPORTANT Note:</strong> The file paths in R follow the Linux standard<br> so that the "\\" character used in Windows file paths
 need to be changed to character "/"
