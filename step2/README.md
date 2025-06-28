@@ -20,7 +20,7 @@ PCA prcomp() function parameters:
 ## Displaying the bulk PCA results with contributions
 
 ### BiPlot companies-variables 1-2 components
-> <em>fviz_pca_biplot(occ.pca, axes = c(1, 2), repel = TRUE,<br>
+> <em>fviz_pca_biplot(occ.pca, axes = c(1, 2), <br>
              col.ind = "cos2", # Color by the quality of representation<br>
             col.var = "contrib", # Color by contributions to the PC<br>
              gradient.cols = c("#00AFBB", "#E7B800", "#FC4E07"),<br>
