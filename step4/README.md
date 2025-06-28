@@ -23,7 +23,7 @@ NOTE:
              )   + scale_x_reverse()<br>
 </em>
 
-<img src="BHP-25-May-2021_PCA-Biplot_2-3_Kmeans.png" alt="drawing" width="70%"/>
+<img src="OCC_PCA-Biplot_2-3_Kmeans.png" alt="drawing" width="70%"/>
 <strong>INTERPRETATION -> The separability of the 5 determined groups is rather good</strong>
 
 ## Display cluster results in the original original factor space 2-3 biplot
@@ -38,7 +38,7 @@ Here we follow the R practice of Alboukadel Kassambara who is one of the main co
 > <em>grp <- as.factor(km.res$cluster)</em><br>
 
 ### Displaying groups in 2-3 PCA factor space with scatter ellipses
-> <em>fviz_pca_biplot(bh_occ.pca, axes = c(2, 3), repel = TRUE,<br>
+> <em>fviz_pca_biplot(bh_occ.pca, axes = c(2, 3), <br>
 		habillage = grp,<br>
              	addEllipses = TRUE)<br>  
 </em>
