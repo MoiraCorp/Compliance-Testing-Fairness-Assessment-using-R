@@ -1,7 +1,7 @@
 # Step1 - Load data and libraries
 
 ## Specifying your Windows R project directory (Replace by the location of your own project directory)
-> projdir = "C:/RExercise/"
+> projdir = "C:/RExercise/"<br>
 > setwd(projdir)
 
 ## Loading data into R
