@@ -38,7 +38,7 @@ Here we follow the R practice of Alboukadel Kassambara who is one of the main co
 > <em>grp <- as.factor(km.res$cluster)</em><br>
 
 ### Displaying groups in 2-3 PCA factor space with scatter ellipses
-> <em>fviz_pca_biplot(bh_occ.pca, axes = c(2, 3), <br>
+> <em>fviz_pca_biplot(occ.pca, axes = c(2, 3), <br>
 		habillage = grp,<br>
              	addEllipses = TRUE)<br>  
 </em>
