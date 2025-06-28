@@ -53,19 +53,3 @@ in: ggplot2 - Essentials (http://www.sthda.com/english/wiki/ggplot2-essentials)
 )</em>
 
 <img src="OCC_PCA-Biplot_2-3_R-D.png" alt="drawing" width="70%"/>
-
-## Displaying PCA results with contributions for Old_New classes
-
-<strong>Modify point shapes with ggplot2</strong> using the "scale_shape_manual" parameter <br>	
-in: ggplot2 point shapes (http://www.sthda.com/english/wiki/ggplot2-point-shapes)
-
-### BiPlot companies-variables 2-3 components with OldNew groups (O = Old (24-Mar-2021), N = New (25-May-2021) )
-> <em>fviz_pca_ind(occ.pca,
-             label = "none", # hide individual labels<br>
- 	     axes = c(2,3),<br>
-             habillage = OCC_wStatus$OldNew, # color by groups<br>
-             palette = c("#FF3366", "#003366")<br>
-) + scale_shape_manual(values=c(19,20))<br>
-</em>
-
-<img src="OCC_PCA-Biplot_2-3_O-N.png" alt="drawing" width="70%"/>
