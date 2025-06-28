@@ -10,8 +10,8 @@ We need to extract the 2 factor sores vectors for components 2-3
 following:  get_pca: Extract the results for individuals/variables in Principal Component Analysis - R software and data mining (http://www.sthda.com/english/wiki/get-pca-extract-the-results-for-individuals-variables-in-principal-component-analysis-r-software-and-data-mining)
 
 ### Extract factor scores
-> <em>bh_occ.pca.ind <- get_pca_ind(bh_occ.pca)</em><br>
-> <em>bh_occ.pca.ind <- bh_occ.pca.ind$coord<br>
+> <em>occ.pca.ind <- get_pca_ind(occ.pca)</em><br>
+> <em>occ.pca.ind <- occ.pca.ind$coord<br>
 </em>
 
 ### Perform k-means on the sub-space 2-3
