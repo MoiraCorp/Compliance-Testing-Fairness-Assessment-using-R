@@ -11,7 +11,7 @@ Note: This determination is done so that clusters will be stable between R runs
 
 ## Display results as "coverage" polygons
 
-### Plotting the cluster results in axes 1,2 plane (Here, the entire data space as its dimensions are 2)
+### Plotting the cluster results in axes 1,2 plane (Here, the entire data space as is 2 dimensional)
 NOTE: 
  - Here we have "axes = c(1,2)" because by construction we have only 2 components (i.d., factor scores)
  - The "palette" parameters for 9 potential clusters are preset following : Colors in R (http://www.sthda.com/english/wiki/colors-in-r)
