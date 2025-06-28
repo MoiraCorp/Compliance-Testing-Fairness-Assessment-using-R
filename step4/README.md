@@ -46,4 +46,11 @@ Here we follow the R practice of Alboukadel Kassambara who is one of the main co
 <img src="PCA-Biplot_2-3_5GR_Ellipses.png" alt="drawing" width="70%"/>
 
 <strong>INTERPRETATION -> The separability of the 5 determined groups is again well characterized</strong><br>
-<strong>NOTE : </strong>for the interpretation of each "tag" variable (A1 to A16), see : ( https://github.com/MoiraCorp/Compliance-Testing-Fairness-Assessment-using-R/tree/main/permid-preprocess )
+<strong>NOTE : </strong>for the interpretation of each "tag" variable (A1 to A16), see : ( https://github.com/MoiraCorp/Compliance-Testing-Fairness-Assessment-using-R/tree/main/permid-preprocess )<br>
+
+It is common practice to characterize each of these groups by their most “influential” variables represented in the PCA 2-3 plane by their vectors (A1, A2 …).<br>
+For example, the Group 2 (in yellow in preceeding illustation) of companies is characterized by their higher values (i.d., correlation) for variables (i.d., category scores) A11, A12 and A15. Namely:<br>
+> A11:	"Human_Interest"<br>
+> A12:	"Hospitality_Recreation"<br>
+> A15:	"Sports"<br>
+
