@@ -1,11 +1,13 @@
 # Step1 - Load data and libraries
 
-## Specifying your Windows project directory (Replace by the location of your own project directory)
+## Specifying your Windows R project directory (Replace by the location of your own project directory)
 > projdir = "C:/RExercise/"
+> setwd(projdir)
 
 ## Loading data into R
 
-The data table BH_OCC_wStatus-IDSorted_25-May-2021.csv should be downloaded into your R project directory from (https://github.com/MoiraCorp/Compliance-Testing-Fairness-Assessment-using-R/blob/main/step1/BH_OCC_wStatus-IDSorted_25-May-2021.csv)<br>
+The data table BH_OCC_wStatus-IDSorted_25-May-2021.csv should be downloaded into your R project directory from (Compliance-Testing-Fairness-Assessment-using-R/permid-preprocess
+/BH_OCC_wStatus-IDSorted_24-Mar-2021.csv)<br>
 
 ##### Load the data table from your local Windows directory into R
 In the present example, the data table is located in the project directory: C:\Projets_En_Cours\AI_MTPL\__BasingHall\25-May-2021\Results
