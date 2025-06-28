@@ -15,7 +15,7 @@ PCA prcomp() function parameters:
 - normalise each column "scale" by dividing by the column variance (Variance in normalized to 1)
 <br>see: Principal Component Analysis in R: prcomp vs princomp (http://www.sthda.com/english/articles/31-principal-component-methods-in-r-practical-guide/118-principal-component-analysis-in-r-prcomp-vs-princomp/)
 
-> <em>bh_occ.pca <- prcomp(BH_OCC_wStatus[,c(4:14,15:17)], center = TRUE, scale = TRUE)</em>				
+> <em>bh_occ.pca <- prcomp(OCC_wStatus[,c(4:14,15:17)], center = TRUE, scale = TRUE)</em>				
 
 ## Displaying the bulk PCA results with contributions
 
