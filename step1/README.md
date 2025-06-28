@@ -9,7 +9,7 @@
 The data table BH_OCC_wStatus-IDSorted_25-May-2021.csv should be downloaded into your R project directory from ( https://github.com/MoiraCorp/Compliance-Testing-Fairness-Assessment-using-R/blob/main/permid-preprocess/OCC_wStatus-IDSorted.csv )<br>
 
 ##### Load the data table from your local Windows directory into R
-> <em>BH_OCC_wStatus <- read.table("OCC_wStatus-IDSorted.csv", header=TRUE, sep=",")</em><br>
+> <em>OCC_wStatus <- read.table("OCC_wStatus-IDSorted.csv", header=TRUE, sep=",")</em><br>
 
 <strong>IMPORTANT Note:</strong> The file paths in R follow the Linux standard<br> so that the "\\" character used in Windows file paths
 need to be changed to character "/"
