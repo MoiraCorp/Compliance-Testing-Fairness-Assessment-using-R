@@ -15,10 +15,10 @@ following:  get_pca: Extract the results for individuals/variables in Principal 
 </em>
 
 ### Perform k-means on the sub-space 2-3
-> <em>bh_occ.pca.23 <- bh_occ.pca.ind[,c(2,3)]</em>
+> <em>bh_occ.pca.23 <- occ.pca.ind[,c(2,3)]</em>
 
 ### Prepare k-means result data for display
-> <em>df <- scale(bh_occ.pca.23)</em>
+> <em>df <- scale(occ.pca.23)</em>
 
 ### Evaluating the "clustering" capacity of k-means
 We follow: fviz_nbclust: Dertermining and Visualizing the Optimal Number of Clusters (https://www.rdocumentation.org/packages/factoextra/versions/1.0.7/topics/fviz_nbclust)<br>
@@ -31,6 +31,6 @@ The <strong>"elbow rule"</strong> advises to retain the number of clusters where
 geom_vline(xintercept = 3, linetype = 2)<br>
 </em>
 
-<img src="BHP-25-May-2021_Kmeans_nbrclust.png" alt="drawing" width="70%"/>
+<img src="OCC_Kmeans_nbrclust.png" alt="drawing" width="70%"/>
 <strong>-> INTERPRETATION -></strong> The generated plot shows a significant bend at <strong>4-5 clusters</strong><br>
 <strong>-> The analysis continues using 5 clusters</strong>
