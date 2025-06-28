@@ -15,29 +15,29 @@ PCA prcomp() function parameters:
 - normalise each column "scale" by dividing by the column variance (Variance in normalized to 1)
 <br>see: Principal Component Analysis in R: prcomp vs princomp (http://www.sthda.com/english/articles/31-principal-component-methods-in-r-practical-guide/118-principal-component-analysis-in-r-prcomp-vs-princomp/)
 
-> <em>bh_occ.pca <- prcomp(OCC_wStatus[,c(4:14,15:17)], center = TRUE, scale = TRUE)</em>				
+> <em>occ.pca <- prcomp(OCC_wStatus[,c(4:14,15:17)], center = TRUE, scale = TRUE)</em>				
 
 ## Displaying the bulk PCA results with contributions
 
 ### BiPlot companies-variables 1-2 components
-> <em>fviz_pca_biplot(bh_occ.pca, axes = c(1, 2), repel = TRUE,<br>
+> <em>fviz_pca_biplot(occ.pca, axes = c(1, 2), repel = TRUE,<br>
              col.ind = "cos2", # Color by the quality of representation<br>
             col.var = "contrib", # Color by contributions to the PC<br>
              gradient.cols = c("#00AFBB", "#E7B800", "#FC4E07"),<br>
                 )<br>
 </em>
                 
-<img src="BHP-25-May-2021_PCA-Biplot_1-2.png" alt="drawing" width="70%"/>
+<img src="OCC_PCA-Biplot_1-2.png" alt="drawing" width="70%"/>
 
 ### BiPlot companies-variables 2-3 components
-> <em>fviz_pca_biplot(bh_occ.pca, axes = c(2, 3), repel = TRUE,<br>
+> <em>fviz_pca_biplot(occ.pca, axes = c(2, 3), repel = TRUE,<br>
              col.ind = "cos2", # Color by the quality of representation<br>
             col.var = "contrib", # Color by contributions to the PC<br>
              gradient.cols = c("#00AFBB", "#E7B800", "#FC4E07"),<br>
                 )<br>
  </em>
                 
-<img src="BHP-25-May-2021_PCA-Biplot_2-3.png" alt="drawing" width="70%"/>
+<img src="OCC_PCA-Biplot_2-3.png" alt="drawing" width="70%"/>
 
 ## Displaying PCA results with contributions for Dismissed-Retained classes
 
@@ -45,14 +45,14 @@ PCA prcomp() function parameters:
 in: ggplot2 - Essentials (http://www.sthda.com/english/wiki/ggplot2-essentials)
 
 ### BiPlot companies-variables 2-3 components with DisvAccept groups (D = Dismissed, R = Retained)
-> <em>fviz_pca_ind(bh_occ.pca,
+> <em>fviz_pca_ind(occ.pca,
              label = "none", # hide individual labels<br>
  	     axes = c(2,3),<br>
-             habillage = BH_OCC_wStatus$RetDis, # color by groups<br>
+             habillage = OCC_wStatus$RetDis, # color by groups<br>
              palette = c("#FF99FF", "#003366")<br>
 )</em>
 
-<img src="BHP-25-May-2021_PCA-Biplot_2-3_R-D.png" alt="drawing" width="70%"/>
+<img src="OCC_PCA-Biplot_2-3_R-D.png" alt="drawing" width="70%"/>
 
 ## Displaying PCA results with contributions for Old_New classes
 
@@ -60,12 +60,12 @@ in: ggplot2 - Essentials (http://www.sthda.com/english/wiki/ggplot2-essentials)
 in: ggplot2 point shapes (http://www.sthda.com/english/wiki/ggplot2-point-shapes)
 
 ### BiPlot companies-variables 2-3 components with OldNew groups (O = Old (24-Mar-2021), N = New (25-May-2021) )
-> <em>fviz_pca_ind(bh_occ.pca,
+> <em>fviz_pca_ind(occ.pca,
              label = "none", # hide individual labels<br>
  	     axes = c(2,3),<br>
-             habillage = BH_OCC_wStatus$OldNew, # color by groups<br>
+             habillage = OCC_wStatus$OldNew, # color by groups<br>
              palette = c("#FF3366", "#003366")<br>
 ) + scale_shape_manual(values=c(19,20))<br>
 </em>
 
-<img src="BHP-25-May-2021_PCA-Biplot_2-3_O-N.png" alt="drawing" width="70%"/>
+<img src="OCC_PCA-Biplot_2-3_O-N.png" alt="drawing" width="70%"/>
