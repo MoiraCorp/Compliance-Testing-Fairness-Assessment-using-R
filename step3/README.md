@@ -15,7 +15,7 @@ following:  get_pca: Extract the results for individuals/variables in Principal 
 </em>
 
 ### Perform k-means on the sub-space 2-3
-> <em>bh_occ.pca.23 <- occ.pca.ind[,c(2,3)]</em>
+> <em>occ.pca.23 <- occ.pca.ind[,c(2,3)]</em>
 
 ### Prepare k-means result data for display
 > <em>df <- scale(occ.pca.23)</em>
