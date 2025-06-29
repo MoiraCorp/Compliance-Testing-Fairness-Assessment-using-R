@@ -16,5 +16,7 @@ NOTE -> The group vector grp is exported and then modified for transfer of a few
 > <em>fviz_pca_biplot(occ.pca, axes = c(2, 3),</em><br> 
 > <em>		habillage = grp,</em><br>
 > <em>		palette = c("#FF0099", "#993FFF", "#0066CC", "#33CCCC", "#009966", "#AAAAAA","#AAAAAA", "#AAAAAA", "#AAAAAA", "#AAAAAA", "#AAAAAA", "#AAAAAA"),</em><br>
-> <em>             	addEllipses = TRUE)</em><br> 
+> <em>             	addEllipses = TRUE)</em><br>
+
+<img src="Biplot_Modified+Ellipse_bh_occ.pca.23_K-means_5 groups+Status.png" alt="drawing" width="70%"/>
 
