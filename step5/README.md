@@ -7,3 +7,5 @@ In the present example, the data tables is located in directory: C:\Projets_En_C
 
 NOTE -> The group vector grp is exported and then modified for transfer of a few odd companies into of a group 6 for outliers
 
+> grp_modified <- read.table("grp_modified.csv", header=TRUE, sep=",")
+
