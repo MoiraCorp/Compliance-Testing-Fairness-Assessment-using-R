@@ -20,5 +20,8 @@ NOTE -> The group vector grp is exported and then modified for transfer of a few
 
 <img src="Biplot_Modified+Ellipse_bh_occ.pca.23_K-means_5 groups+Status.png" alt="drawing" width="70%"/>
 
->
+> <em>\# Statitics for each group of companies</em><br>
+> <em>grp_stat <- describeBy(OCC_wStatus[,c(4:14,15:17)],grp_modified$Group, mat=TRUE)</em><br>
+
+
 
