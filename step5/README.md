@@ -23,5 +23,8 @@ NOTE -> The group vector grp is exported and then modified for transfer of a few
 > <em>\# Statitics for each group of companies</em><br>
 > <em>grp_stat <- describeBy(OCC_wStatus[,c(4:14,15:17)],grp_modified$Group, mat=TRUE)</em><br>
 
+> <em>\# Statitics for each group of companies broke down by Dismissed-Retained categories</em><br>
+> <em>gpr_statDR <- describeBy(OCC_wStatus[,c(4:14,15:17)],grp_modified$GrwithStat, mat=TRUE)</em><br>
+
 
 
