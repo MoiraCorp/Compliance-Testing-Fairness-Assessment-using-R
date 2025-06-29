@@ -17,7 +17,7 @@ NOTE:
  - The "palette" parameters for 9 potential clusters are preset following : Colors in R (http://www.sthda.com/english/wiki/colors-in-r)
 > <em>fviz_cluster(km.res, data = df,<br>
              palette = c("#00AFBB","#2E9FDF", "#E7B800", "#FC4E07", "#3399FF", "#FF3399", "#336600", "#330033", "#009966"),<br>
-	     axes = c(1,2), repel = TRUE,<br>
+	     axes = c(1,2),<br>
              ggtheme = theme_minimal(),<br>
              main = "Partitioning Clustering Plot"<br>
              )   + scale_x_reverse()<br>
