@@ -20,3 +20,5 @@ NOTE -> The group vector grp is exported and then modified for transfer of a few
 
 <img src="Biplot_Modified+Ellipse_bh_occ.pca.23_K-means_5 groups+Status.png" alt="drawing" width="70%"/>
 
+>
+
