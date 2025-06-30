@@ -27,6 +27,13 @@ Output	==== Category ====
 Name - > Score
 Business_Finance - > 1.000
 Technology_Internet - > 0.985
+
+|           |     | 
+| --------- | ------- |		
+|  Input	 |  SimpleAxis is a technology-based company with a unique and particular profile, which is distinguished by its solid analytical background acquired in multiple contexts, from academia to industry. SimpleAxis combines mathematical optimization with advanced data analytics to enhance the performance of companies and the strategic development of their business. Our solutions allow our customers to make more informed decisions in logistics and production operations. Through optimization and data analysis we are bringing efficiency and visualization to business processses.	 |
+|  Output	 |  ==== Category ====<br> Name - > Score<br>	Business_Finance - > 1.000<br> Technology_Internet - > 0.985 | 
+
+
 Table 1 – Example of “Category” determination by PermID "Intelligent Tagging"
 
 
