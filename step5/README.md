@@ -46,12 +46,14 @@ It is also common to represent each groups by their average vector of category s
 > <em>\# Statitics for each group of companies broke down by Dismissed-Retained categories</em><br>
 > <em>gpr_statDR <- describeBy(OCC_wStatus[,c(4:14,15:17)],grp_modified$GrwithStat, mat=TRUE)</em><br>
 
-<img src="Groups_OCC_24-Mar-2021.JPG" alt="drawing" width="70%"/>
+<img src="Groups_OCC_24-Mar-2021.JPG" alt="drawing" width="100%"/>
 
-In the above table the highest values category scores are presented in yellow. It shows that the bulk of the companies is regrouped in GR5 characterized by categories: “Business Finance” and “Technology Internet”. For the other groups, the characteristic categories are:
--	GR1: “IT in Finance”
--	GR2: “Hospitality-Recreation financing”
--	GR3: “Environment Agriculture”
--	GR4: “Heath Medical Pharmacy”
--	GR4: “Heath Medical Pharmacy”
+In the above table the highest values category scores are presented in yellow. It shows that all the companies' activities involve Internet with added specificities: <br>
+<ul>
+<li> GR1: “Business-Finance”</li>
+<li> GR2: “Hospitality-Recreation with financing”</li>
+<li> GR3: “Helth_Pharmacy”</li>
+<li> GR4: “Environment Agriculture”</li>
+<li> GR5: “Sports”</li>
+</ul>
 
