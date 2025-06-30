@@ -8,6 +8,18 @@ NOTE -> The group vector grp is exported and then modified for transfer of a few
 
 > <em>grp_modified <- read.table("grp_modified.csv", header=TRUE, sep=",")</em>
 
+### Comparing the Retained and Dismissed groups of companies for testing the "fairness" of the selection process
+
+This experiment is meant to test the usability of the company classification based on their PermID "Intelligent Tagging" scores. It is using the section of the sections of the questionnaire named: "Status". It is aiming at providing an answer to the question:<br>
+	**"Does it exist a bias in the way Basinghall Partners retains or dismisses a particular startup after it has submitted its statement of interest?"**<br>
+This is what we have called "fairness analysis". In other words, based on the classification presented above, is it possible to demonstrate that the selection of dossiers processed is an unbiased (i.d., fair) process?
+
+#### Determining the amount of similiraties between the Retained and Dismissed groups through their PermID characterisation
+
+In order to test this hypothesis, we have separated the population of startups in two sub-groups:
+		- Dismissed: for Status, 21. Discontinued or 22. Dismissed
+		- Retained: for all the other values of Status
+
 > <em>\# Composite plot of ellipses with status</em><br>
 > <em>grp <- as.factor(grp_modified$GrwithStat)</em><br>
 > <em>\# Here we want to have the ellipses of Status=Dismissed in grey</em><br>
