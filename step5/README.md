@@ -1,7 +1,6 @@
 # Step5 - Evaluate fairness of the selection process of the startup dossiers
 
 ### Saving the group (class) vector table for future use
-In the present example, the data tables is located in directory: C:\Projets_En_Cours\AI_MTPL__BasingHall\25-May-2021\Results
 
 > <em>write.csv(grp,"grp.csv", sep=",")</em><br>
 
@@ -19,6 +18,9 @@ NOTE -> The group vector grp is exported and then modified for transfer of a few
 > <em>             	addEllipses = TRUE)</em><br>
 
 <img src="Biplot_Modified+Ellipse_occ.pca.23_K-means_5 groups+Status.png" alt="drawing" width="70%"/>
+
+This diagram shows that for 5 groups, the “dispersion ellipses” of the Dismissed sub-groups (showed in grey) overlap almost perfectly with the “dispersion ellipses” of that of original population of companies.<br>
+**From these results it is concluded that the Basing Hall Partners process is reasonably “fair”**
 
 > <em>\# Statitics for each group of companies</em><br>
 > <em>grp_stat <- describeBy(OCC_wStatus[,c(4:14,15:17)],grp_modified$Group, mat=TRUE)</em><br>
