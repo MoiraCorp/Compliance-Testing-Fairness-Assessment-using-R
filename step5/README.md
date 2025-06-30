@@ -17,8 +17,12 @@ This is what we have called "fairness analysis". In other words, based on the cl
 #### Determining the amount of similiraties between the Retained and Dismissed groups through their PermID characterisation
 
 In order to test this hypothesis, we have separated the population of startups in two sub-groups:
-		- Dismissed: for Status, 21. Discontinued or 22. Dismissed
-		- Retained: for all the other values of Status
+<ul>
+<li> Dismissed: for Status, 21. Discontinued or 22. Dismissed</li>
+<li> Retained: for all the other values of Status</li>
+</ul>
+
+We compare each of these classes through the statistical properties of their corresponding K-means sub-groups. This is done in the factor space (2,3)
 
 > <em>\# Composite plot of ellipses with status</em><br>
 > <em>grp <- as.factor(grp_modified$GrwithStat)</em><br>
@@ -34,11 +38,20 @@ In order to test this hypothesis, we have separated the population of startups i
 This diagram shows that for 5 groups, the “dispersion ellipses” of the Dismissed sub-groups (showed in grey) overlap almost perfectly with the “dispersion ellipses” of that of original population of companies.<br>
 **From these results it is concluded that the Basing Hall Partners process is reasonably “fair”**
 
+It is also common to represent each groups by their average vector of category scores.
+
 > <em>\# Statitics for each group of companies</em><br>
 > <em>grp_stat <- describeBy(OCC_wStatus[,c(4:14,15:17)],grp_modified$Group, mat=TRUE)</em><br>
 
 > <em>\# Statitics for each group of companies broke down by Dismissed-Retained categories</em><br>
 > <em>gpr_statDR <- describeBy(OCC_wStatus[,c(4:14,15:17)],grp_modified$GrwithStat, mat=TRUE)</em><br>
 
+<img src="Groups_OCC_24-Mar-2021.JPG" alt="drawing" width="70%"/>
 
+In the above table the highest values category scores are presented in yellow. It shows that the bulk of the companies is regrouped in GR5 characterized by categories: “Business Finance” and “Technology Internet”. For the other groups, the characteristic categories are:
+-	GR1: “IT in Finance”
+-	GR2: “Hospitality-Recreation financing”
+-	GR3: “Environment Agriculture”
+-	GR4: “Heath Medical Pharmacy”
+-	GR4: “Heath Medical Pharmacy”
 
