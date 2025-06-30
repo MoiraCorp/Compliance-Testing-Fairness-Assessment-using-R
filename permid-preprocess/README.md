@@ -23,7 +23,7 @@ For each company in the database, semantic tags identified using the LSEG-PermID
  |    <em>Actions</em>       |   <em>Example of combined fields: value proposition and TOP benefits for customers</em>  |
 | --------- | ------- |		
 |  Input	 |  Our company is technology-based with a unique and particular profile, which is distinguished by its solid analytical background acquired in multiple contexts, from academia to industry. It combines mathematical optimization with advanced data analytics to enhance the performance of companies and the strategic development of their business. Our solutions allow our customers to make more informed decisions in logistics and production operations. Through optimization and data analysis we are bringing efficiency and visualization to business processses.	 |
-|  Output	 |  ==== Categories identified by PermID along with probability ====<br> Name - > Score<br>	Business_Finance - > 1.000<br> Technology_Internet - > 0.985 | 
+|  Output	 |  ==== Categories identified by PermID along with score ====<br> Business_Finance - > 1.000<br> Technology_Internet - > 0.985 | 
 |  	 |  **Table 1 – Example of “Category” determination by PermID "Intelligent Tagging"** |
 
 The activity "tags" determined by PermID from the concatenation of these 3 questionnaire fields are:
